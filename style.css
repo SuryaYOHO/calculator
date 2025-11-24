@@ -7,7 +7,7 @@ h2{
 }
 .center-box {
   margin-top: 40px;
-  padding: 20px;
+  padding: 30px;
   width: 260px;
   border: 3px solid black;
   border-radius: 15px;
@@ -24,20 +24,21 @@ h2{
   text-align: right;
   border: 2px solid #555;
   border-radius: 8px;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .calc-buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
+  gap: 10px;
+  padding: 10px;
 }
 
 button {
   height: 45px;
   font-size: 18px;
   border: 2px solid rgb(7, 7, 9);
-  border-radius: 10px;
+  border-radius: 50%;
   background: yellow;
   cursor: pointer;
   transition: 0.2s;
